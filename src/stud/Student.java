@@ -13,6 +13,7 @@ public class Student {
     
     private int studID;
     private String studName;
+    private String program;
     
     
     public Student(int give, String giveStud){
@@ -42,6 +43,20 @@ public class Student {
     public void setStudentName(String giveStud){
         
         studName = giveStud;
+    }
+
+    /**
+     * @return the program
+     */
+    public String getProgram() {
+        return program;
+    }
+
+    /**
+     * @param program the program to set
+     */
+    public void setProgram(String program) {
+        this.program = program;
     }
     
     
